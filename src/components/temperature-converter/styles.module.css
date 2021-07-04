@@ -1,0 +1,7 @@
+.wrapper:not(:last-of-type) {
+  margin-block-end: 12px;
+}
+
+.title {
+  margin-block-end: 4px;
+}
