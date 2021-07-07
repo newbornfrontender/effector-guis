@@ -2,6 +2,8 @@
 
 [The 7 Tasks](https://eugenkiss.github.io/7guis/tasks)
 
+[Effector GUIs Site](https://newbornfrontender.github.io/effector-guis)
+
 ## Commands
 
 1. `npm install`
