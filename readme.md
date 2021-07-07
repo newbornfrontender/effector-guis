@@ -13,7 +13,7 @@
 - [x] Temperature Converter
 - [ ] Flight Booker
 - [ ] Timer
-- [ ] CRUD
+- [x] CRUD
 - [ ] Circle Drawer
 - [ ] Cells
 

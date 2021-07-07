@@ -27,7 +27,11 @@ export const Counter = () => {
     <Block title="(1) Counter">
       <input type="number" className={styles.field} disabled value={counter} />
 
-      {actions.map(({text, handler}) => <button type="button" key={text} onClick={handler}>{text}</button>)}
+      {actions.map(({ text, handler }) => (
+        <button type="button" key={text} onClick={handler}>
+          {text}
+        </button>
+      ))}
     </Block>
   );
 };

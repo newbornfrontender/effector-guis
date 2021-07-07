@@ -1,0 +1,57 @@
+.wrapper {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 290px 210px;
+  grid-template-rows: 30px 130px 30px;
+  gap: 12px;
+  grid-template-areas:
+    'filter filter'
+    'list fields'
+    'buttons buttons';
+}
+
+.wrapper .filter {
+  grid-area: filter;
+  inline-size: fit-content;
+}
+
+.wrapper .list {
+  grid-area: list;
+  border: 1px solid;
+  padding: 4px;
+  overflow-y: auto;
+}
+
+.wrapper .list li:hover {
+  background-color: #accede;
+  cursor: pointer;
+}
+
+.wrapper .list li:global(.active) {
+  background-color: #accede;
+}
+
+.wrapper .fields {
+  grid-area: fields;
+  display: grid;
+  grid-gap: 6px;
+  align-content: flex-start;
+}
+
+.wrapper .buttons {
+  grid-area: buttons;
+  display: grid;
+  grid-template-columns: repeat(3, 66px);
+  grid-gap: 6px;
+  align-items: center;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.field p {
+  margin-inline-end: 12px;
+}
