@@ -9,11 +9,11 @@
 
 ## ToDo
 
-- [x] [Counter](/tree/main/src/components/counter)
-- [x] [Temperature Converter](/tree/main/src/components/temperature-converter)
+- [x] [Counter](/src/components/counter)
+- [x] [Temperature Converter](/src/components/temperature-converter)
 - [ ] Flight Booker
 - [ ] Timer
-- [x] [CRUD](/tree/main/src/components/crud)
+- [x] [CRUD](/src/components/crud)
 - [ ] Circle Drawer
 - [ ] Cells
 
